@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+
+    <div class="wrapper" id="wrapper">
+        <img id="image" src="img/look-0.png">
+        <input class="login" type="email" id="textInput" oninput="changeImage()" placeholder="E-mail">
+        <div>
+            <input type="checkbox" id="checkBox" onclick="boxChecked()">
+            <label id="cblabel" for="checkBox"><i id="icon" class="fa-solid fa-eye"></i></label>
+        </div>
+        <input class="login" type="password" id="passwordInput" oninput="changeImage()" placeholder="Password">
+        <button class="btn">LOGIN</button>
+    </div>
+
+
+    <script src="script.js"></script>
+  </body>
+</html>
